@@ -25,5 +25,16 @@
     font-size: 5rem;
     z-index: 2;
     }
+
+    /* Scores Board */
+.score{
+    display: flex;
+    width: 40vw;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 130px;
+    z-index: 1;
+    }
+    
     
     
