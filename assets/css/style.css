@@ -35,13 +35,22 @@
     top: 130px;
     z-index: 1;
     }
-    
+
     /* Score */
 .p-count,.c-count{
     text-align: center;
     font-size: 2.5rem;
     margin-top: 1.5rem;
     }
+
+    /* displaying 3 buttons in a single line */
+.options{
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    }
+    
     
     
     
