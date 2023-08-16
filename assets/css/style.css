@@ -7,3 +7,14 @@
     background: black;
     color: #fff;
     }    
+
+    /* To keep everything in game centered */
+.game{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    }
+    
