@@ -17,4 +17,13 @@
     justify-content: center;
     align-items: center;
     }
+
+    /* Game Title */
+.title{
+    position: absolute;
+    top: 0;
+    font-size: 5rem;
+    z-index: 2;
+    }
+    
     
