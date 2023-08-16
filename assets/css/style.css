@@ -36,5 +36,13 @@
     z-index: 1;
     }
     
+    /* Score */
+.p-count,.c-count{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    }
+    
+    
     
     
