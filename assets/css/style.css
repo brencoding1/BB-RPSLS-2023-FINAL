@@ -22,25 +22,25 @@
 .title{
     position: absolute;
     top: 0;
-    font-size: 5rem;
+    font-size: 4rem;
     z-index: 2;
     }
 
     /* Scores Board */
 .score{
     display: flex;
-    width: 40vw;
+    width: 30vw;
     justify-content: space-evenly;
     position: absolute;
-    top: 130px;
+    top: 70px;
     z-index: 1;
     }
 
     /* Score */
 .p-count,.c-count{
     text-align: center;
-    font-size: 2.5rem;
-    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
     }
 
     /* displaying 3 buttons in a single line */
@@ -63,7 +63,7 @@
     cursor: pointer;
     }
     .move{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     }
 
@@ -84,7 +84,7 @@
     }
 
     /* Responsive Design here */
-@media screen and (max-width: 612px)
+@media screen and (max-width: 800px)
 {
 .title{
 text-align: center;
@@ -97,3 +97,7 @@ width: 100vw;
 .options{
 width: 100vw;
 }
+.result{
+    position: absolute;
+    bottom: 200px;
+    }
